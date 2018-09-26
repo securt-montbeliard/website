@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://www.securt.fr%{REQUEST_URI} [R=301,L]
